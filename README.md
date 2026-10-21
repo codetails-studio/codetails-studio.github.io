@@ -6,23 +6,24 @@ HTML, CSS e JavaScript senza dipendenze, build, backend, analytics o cookie.
 Logo, palette e immagini provengono dal progetto SBECCHIAMO. Le schermate
 mostrano il client reale della Beta in un’anteprima locale.
 
-## Pubblicazione prevista
+## Pubblicazione
 
 Repository: `codetails-studio/codetails-studio.github.io`.
 GitHub Pages: branch `main`, cartella `/ (root)`, HTTPS.
-URL: https://codetails-studio.github.io/
+URL: https://codetails-studio.github.io/beccacino-homepage/
 
-La pubblicazione iniziale richiede l’approvazione del design da parte del titolare.
+Design approvato e pubblicato il 21 ottobre 2026. La homepage è nella cartella
+`beccacino-homepage/`; la radice contiene un reindirizzamento alla homepage.
 Non aggiungere CNAME o redirect globali: i documenti legali restano nel repository
 separato `beccacino-legal` e agli URL già pubblicati.
 
 ## Manutenzione
 
-- Contenuti e SEO: `index.html`.
-- Palette e responsive: `styles.css`. Token originali `--mp-* dell’app` riportati
+- Contenuti e SEO: `beccacino-homepage/index.html`.
+- Palette e responsive: `beccacino-homepage/styles.css`. Token originali `--mp-* dell’app` riportati
   all’inizio del foglio.
-- Menu e galleria accessibile: `site.js`.
-- Immagine di condivisione: `assets/social-card.jpg`.
+- Menu e galleria accessibile: `beccacino-homepage/site.js`.
+- Immagine di condivisione: `beccacino-homepage/assets/social-card.jpg`.
 - Nessun pulsante di download finché Google Play non sarà pubblicamente disponibile.
 
 ## Search Console
@@ -30,6 +31,6 @@ separato `beccacino-legal` e agli URL già pubblicati.
 Dopo la pubblicazione aggiungere la proprietà con prefisso URL
 `https://codetails-studio.github.io/` usando l’account proprietario/editor del
 progetto Cloud. Inserire il meta tag autentico fornito da Google nel `<head>`
-di `index.html`, dove indicato, oppure pubblicare il file HTML originale alla
+di `beccacino-homepage/index.html`, dove indicato, oppure pubblicare il file HTML originale alla
 radice. Non inventare token e non rimuovere il metodo di verifica in seguito.
 La verifica Search Console e la verifica OAuth sono passaggi distinti.
